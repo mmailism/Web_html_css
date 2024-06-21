@@ -1,0 +1,48 @@
+.container {
+    background-color:darksalmon;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 5px 8px 1px coral;
+}
+
+.box_01 {
+    max-width: 80%;
+}
+
+.paragraph_one {
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.head_name {
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+.career {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: quicksand;
+    font-size: 120%;
+    font-weight: 400;
+    color: rgb(2, 18, 32);
+}
