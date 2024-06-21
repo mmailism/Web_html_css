@@ -1,5 +1,5 @@
 .container {
-    background-color:darksalmon;
+    background-color:lightcoral;
     min-height: 100vh;
     padding: 128px;
 }
@@ -11,16 +11,18 @@
     margin-top: 3%;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 5px 5px 8px 1px coral;
+    box-shadow: 5px 5px 8px 1px crimson;
 }
 
 .box_01 {
-    max-width: 80%;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 10px 10px;
 }
 
 .paragraph_one {
     font-size: medium;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .quicksand-<uniquifier> {
@@ -45,4 +47,13 @@ body {
     font-size: 120%;
     font-weight: 400;
     color: rgb(2, 18, 32);
+}
+
+.botton {
+    background-color: crimson;
+    color: bisque;
+    max-width: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
